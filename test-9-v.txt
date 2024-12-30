@@ -1,0 +1,10 @@
+COMMENT: Multiple trades with partial matches on quantity
+MODE: TL
+NUM_TRADERS: 4
+NUM_STOCKS: 2
+0 BUY T0 S1 $200 #30
+1 SELL T1 S1 $150 #20
+2 SELL T2 S1 $180 #15
+3 BUY T3 S1 $190 #25
+4 BUY T0 S1 $189 #25
+4 SELL T3 S0 $189 #25

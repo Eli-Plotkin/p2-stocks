@@ -1,0 +1,10 @@
+COMMENT: Different timestamps and varying stocks
+MODE: TL
+NUM_TRADERS: 3
+NUM_STOCKS: 2
+1 SELL T1 S0 $50 #20
+2 BUY T0 S0 $100 #10
+2 BUY T2 S0 $75 #5
+3 SELL T1 S0 $40 #10
+3 SELL T1 S1 $30 #5
+4 BUY T2 S1 $40 #10

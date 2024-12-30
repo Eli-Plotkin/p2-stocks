@@ -1,0 +1,7 @@
+COMMENT: Matching stocks with tied timestamps
+MODE: TL
+NUM_TRADERS: 2
+NUM_STOCKS: 2
+0 SELL T0 S0 $100 #10
+0 BUY T1 S0 $50 #5
+
